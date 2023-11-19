@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block header %}Solve Derivative{% endblock %}
+
+{% block content %} 
+<form method="POST">
+  <label for="user_answer">What is the derivative of {{ question }} : </label>
+  <input type="text" id="user_answer" name="user_answer" placeholder="Your Answer" required>
+</form>
+<a id="verification_answer" href="/verification_answer">submit answer</a>
+{% endblock %}
+
+

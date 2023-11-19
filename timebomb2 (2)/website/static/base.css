@@ -1,0 +1,22 @@
+.equations-choice {
+    display: inline;
+}
+
+.equations-choice-single {
+    display: inline;
+    width: 50%;
+    height: 200px;
+    max-width: 300px;
+    background-color: bisque;
+}
+h1{
+  text-align: center;
+}
+body{
+  background-color: bisque;
+    
+    }
+
+p {
+  font-size: 15px;
+}

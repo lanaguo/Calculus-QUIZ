@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+<link href="home.css" rel="stylesheet" type="text/css">
+{% block header %}Welcome to the math study session!{% endblock %}
+
+{% block content %}
+<div class="box">
+<h3>Please choose what you want to learn between derivative and integral.</h3>
+<div class="equations-choice">
+    <div class="equations-choice-single">
+        <h6>Learn the Derivative of basic functions</h6>
+        <a id="derivatives" href="/derivatives">Derivative!</a>
+    </div>
+    <div class="equations-choice-single">
+        <h6>Learn the Integral of basic functions</h6>
+        <a id="integrals" href="/integrals">Integral!
+        </a>
+    </div>
+</div>
+</div>
+{% endblock %}

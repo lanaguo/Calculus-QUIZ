@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link href="base.css" rel="stylesheet" type="text/css"/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- {% block links %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='base.css') }}"/>
+        {% endblock %} -->
+        <title>{% block title %}{% endblock %}</title>
+    </head>
+    <body>
+        <p><b>Note that "n" is any real number. Please input "n" in the answer to represent any real number.</b></p>
+        <h1>{% block header %}{% endblock %}</h1>
+        
+        <div>{% block content %}{% endblock %}</div>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block header %}Welcome to the math study session!{% endblock %}
+
+{% block content %} 
+<form method="POST">
+  <label for="user_answer">Enter Your Answer Here</label>
+  <input type="text" id="user_answer" name="user_answer" placeholder="Your Answer" required>
+</form>
+{{ correctAnswer }}
+{% endblock %}

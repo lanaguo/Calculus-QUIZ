@@ -1,0 +1,13 @@
+.box {
+  border: 2px solid green;
+  width: 50%;
+  padding: 0.5em;
+}
+
+.box p {
+  margin: 50px;
+}
+
+body{
+  background-color: slategray;
+}

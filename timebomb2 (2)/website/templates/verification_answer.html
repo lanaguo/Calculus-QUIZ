@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block header %}Verifying your answer{% endblock %}
+
+{% block content %} 
+{% if correctAnswer == False: %} 
+<p>You put nothing</p>
+{% else %}
+  {% if correctAnswer == True: %}
+    <p>Slay!</p>
+  {% else %}
+    <p>wrong, the right answer is {{feedback}}</p>
+  {% endif %}
+{% endif %}
+{% endblock %}
